@@ -103,6 +103,7 @@ legend {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  line-height: 1.6875;
   color: #323232;
 }
 
@@ -110,6 +111,10 @@ html, body {
   max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.none {
+  display: none;
 }
 
 .nav {
@@ -192,13 +197,16 @@ html, body {
 }
 
 .header__text p {
-  margin-bottom: 42px;
   line-height: 1.6875;
   letter-spacing: 1.15px;
 }
 
 .header__img img {
   border-radius: 40px 40px 40px 0px;
+}
+
+.header__form {
+  margin-top: 42px;
 }
 
 .form {
@@ -276,12 +284,69 @@ html, body {
   background-color: #F78434;
   font-weight: 700;
   line-height: 58px;
-  color: #fff;
+  color: #fff !important;
   -webkit-transition: background-color 0.2s ease-in;
   transition: background-color 0.2s ease-in;
 }
 
 .button:hover {
   background-color: #ff6a00;
+}
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 45px;
+}
+
+.clients__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.objects {
+  padding-top: 45px;
+  padding-bottom: 80px;
+}
+
+.objects__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.objects__text {
+  max-width: 543px;
+  padding-left: 181px;
+}
+
+.objects__text p + p {
+  margin-top: 20px;
+}
+
+.objects__title {
+  margin-bottom: 20px;
+}
+
+.objects__button {
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.476;
 }
 /*# sourceMappingURL=main.css.map */
