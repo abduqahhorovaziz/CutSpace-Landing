@@ -328,8 +328,8 @@ html, body {
 }
 
 .objects__text {
-  max-width: 543px;
-  padding-left: 181px;
+  max-width: 540px;
+  padding-left: 18 0px;
 }
 
 .objects__text p + p {
